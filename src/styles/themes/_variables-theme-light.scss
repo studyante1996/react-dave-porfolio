@@ -1,0 +1,77 @@
+/**
+ * @author Ryan Balieiro
+ * @description Light theme colors.
+ */
+
+@import "theme-variables-builder";
+
+$primary: #2563eb;  // blue-600
+$secondary: #4b5563;  // gray-600
+$dark: #1f2937;  // gray-800
+$danger: #dc2626;  // red-600
+$muted: #6b7280;  // gray-500
+
+$base-bg: #ffffff;  // white
+$base-bg-light: #f9fafb;  // gray-50
+$base-bg-dark: #f3f4f6;  // gray-100
+
+$texts: #1f2937;  // gray-800
+$texts-inverted: #ffffff;  // white
+
+$base-container-bg: #ffffff;  // white
+$base-container-bg-accent: #f9fafb;  // gray-50
+$base-popover-bg: #ffffff;  // white
+$base-boards: #f3f4f6;  // gray-100
+$base-info-badges: #e5e7eb;  // gray-200
+$empty: #f9fafb;  // gray-50
+
+$borders: #e5e7eb;  // gray-200
+$scrollbar-track: #f3f4f6;  // gray-100
+$scrollbar-thumb: #9ca3af;  // gray-400
+
+[data-theme="light"] {
+    @include build-theme(
+        // Theme Config...
+        /** DARK MODE: **/                  false,
+
+        // Base Colors...
+        /** PRIMARY: **/                    $primary,
+        /** SECONDARY: **/                  $secondary,
+        /** DARK: **/                       $dark,
+        /** DANGER: **/                     $danger,
+        /** MUTED: **/                      $muted,
+
+        // Main Layout Colors...
+        /** BG: **/                         $base-bg,
+        /** BG CONTRAST: **/                $base-bg-light,
+        /** BG CONTRAST DARKEN:**/          $base-bg-dark,
+        /** TEXTS: **/                      $texts,
+        /** TEXTS (INVERTED): **/           $texts-inverted,
+
+        // Nav
+        /** NAV MOBILE BG: **/              $base-container-bg-accent,
+        /** NAV MOBILE: **/                 $texts,
+        /** NAV MOBILE BORDER: **/          rgba(white, 0.2),
+
+        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
+        /** NAV MOBILE HOVER: **/           $primary,
+
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/ rgba(white, 0.15),
+
+        // Main Layout Elements...
+        /** SECTION BG: **/                 $base-container-bg,
+        /** CARD BG: **/                    $base-container-bg,
+        /** POPUPS BG: **/                  $base-popover-bg,
+        /** BOARDS: **/                     $base-boards,
+        /** INFO BADGE BG: **/              $base-info-badges,
+        /** INFO BADGE **/                  $texts,
+        /** EMPTY **/                       $empty,
+
+        // Other Colors...
+        /** DEFAULT BORDERS: **/            $borders,
+        /** SCROLLBAR TRACK: **/            $scrollbar-track,
+        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+    );
+}

@@ -1,0 +1,174 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Certifications",
+                "title_long_prefix": "Here are my",
+                "title_long": "{{Certifications}}"
+            } 
+        }
+    },
+
+    "articles": [
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Certifications" } 
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "date": {"year": 2023, "month": 6,"now": true},
+                    "preview": {
+                        "links": [
+                            {"faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-square-1.jpg",
+                            "images/pictures/screenshot-demo-square-2.jpg",
+                            "images/pictures/screenshot-demo-square-3.jpg",
+                            "images/pictures/screenshot-demo-square-4.jpg",
+                            "images/pictures/screenshot-demo-square-5.jpg",
+                            "images/pictures/screenshot-demo-square-6.jpg"
+                        ],
+                        "screenshotsAspectRatio": "1:1"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{HP - Hewlett-Packard}} Pro Series - Certified Technician",
+                            "province": "Butuan City",
+                            "country": "Philippines",
+                            "institution": "Hewlett-Packard",
+                            "text": "Earned certification as an HP Pro Series Certified Technician, demonstrating proficiency in diagnosing, repairing, and maintaining HP devices and systems. Recognized for developing a support tool that improved technical service delivery through the following innovations:",
+                            "list": [
+                                    "Diagnosed and repaired hardware issues in HP laptops, desktops, and printers",
+                                    "Replaced faulty components including motherboards, hard drives, and power supplies",
+                                    "Performed BIOS updates and firmware flashing for device optimization",
+                                    "Configured and calibrated printers and multifunction devices",
+                                    "Troubleshot networking and connectivity issues in HP systems",
+                                    "Documented service procedures and maintained detailed repair logs"
+                                ]
+
+                        } 
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {"year": 2023, "month": 6,"now": true},
+                    "preview": {
+                        "links": [
+                            {"faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-square-1.jpg",
+                            "images/pictures/screenshot-demo-square-2.jpg",
+                            "images/pictures/screenshot-demo-square-3.jpg",
+                            "images/pictures/screenshot-demo-square-4.jpg",
+                            "images/pictures/screenshot-demo-square-5.jpg",
+                            "images/pictures/screenshot-demo-square-6.jpg"
+                        ],
+                        "screenshotsAspectRatio": "1:1"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{XITRIX}} Certified Technician",
+                            "province": "Butuan City",
+                            "country": "Philippines",
+                            "institution": "XITRIX",
+                            "text": "Earned certification as an XITRIX Certified Technician, demonstrating proficiency in diagnosing, repairing, and maintaining XITRIX devices and systems. Recognized for developing a support tool that improved technical service delivery through the following innovations:",
+                            "list": [
+                                    "Diagnosed and repaired hardware issues in HP laptops, desktops, and printers",
+                                    "Replaced faulty components including motherboards, hard drives, and power supplies",
+                                    "Performed BIOS updates and firmware flashing for device optimization",
+                                    "Configured and calibrated printers and multifunction devices",
+                                    "Troubleshot networking and connectivity issues in HP systems",
+                                    "Documented service procedures and maintained detailed repair logs"
+                                ]
+
+                        } 
+                    }
+                },
+                {
+                    "id": 1,
+                    "date": {"year": 2023, "month": 6,"now": true},
+                    "preview": {
+                        "links": [
+                            {"faIcon": "fa-brands fa-medium"}
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-square-1.jpg",
+                            "images/pictures/screenshot-demo-square-2.jpg",
+                            "images/pictures/screenshot-demo-square-3.jpg",
+                            "images/pictures/screenshot-demo-square-4.jpg",
+                            "images/pictures/screenshot-demo-square-5.jpg",
+                            "images/pictures/screenshot-demo-square-6.jpg"
+                        ],
+                        "screenshotsAspectRatio": "1:1"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Haier}}  – Certified Technician",
+                            "province": "Butuan City",
+                            "country": "Philippines",
+                            "institution": "Haier",
+                            "text": "Earned certification as an Haier Certified Technician, demonstrating proficiency in diagnosing, repairing, and maintaining Haier devices and systems. Recognized for developing a support tool that improved technical service delivery through the following innovations:",
+                            "list": [
+                                    "Diagnosed and repaired hardware issues in Haeier laptops",
+                                    "Replaced faulty components including motherboards, hard drives, and power supplies",
+                                    "Performed BIOS updates and firmware flashing for device optimization",
+                                    "Configured and calibrated printers and multifunction devices",
+                                    "Troubleshot networking and connectivity issues in Haeier systems",
+                                    "Documented service procedures and maintained detailed repair logs"
+                                ]
+
+                        } 
+                    }
+                },
+                {
+                    "id": 1,
+                    "date": { "year": 2016, "month": 3},
+                    "preview": {
+                        "links": [
+                            {  }
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-demo-square-1.jpg",
+                            "images/pictures/screenshot-demo-square-2.jpg",
+                            "images/pictures/screenshot-demo-square-3.jpg",
+                            "images/pictures/screenshot-demo-square-4.jpg",
+                            "images/pictures/screenshot-demo-square-5.jpg",
+                            "images/pictures/screenshot-demo-square-6.jpg"
+                        ],
+                        "screenshotsAspectRatio": "1:1"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{SMAW}} - Shielded Metal Arc Welding {{NCII}}",
+                            "province": "Butuan City",
+                            "country": "Philippines",
+                            "institution": "TESDA NC-II Holder",
+                            "text": "Completed the TESDA NC-II certification in Shielded Metal Arc Welding (SMAW), covering a total of 268 hours of hands-on training over approximately 33 days. Developed core competencies in welding techniques, safety procedures, and blueprint interpretation for industrial applications.",
+                            "list": [
+                                "Performed flat, horizontal, vertical, and overhead welding positions (1G–4G)",
+                                "Prepared welding joints and base metals according to technical specifications",
+                                "Used SMAW tools and equipment with proper setup, maintenance, and shutdown procedures",
+                                "Applied occupational health and safety procedures in welding environments",
+                                "Interpreted welding symbols, shop drawings, and material requirements",
+                                "Produced quality welds in accordance with TESDA standards and tolerances"
+                            ]
+                        }
+                    }
+                }
+                
+                
+            ]
+        }
+    ]
+}

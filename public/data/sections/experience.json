@@ -1,0 +1,153 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 0,
+                    "img": "images/pictures/timeline-place-sapphire-studio.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2015, "month": 1},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Freelancer}}",
+                            "province": "Agusan del Norte",
+                            "country": "Philippines",
+                            "institution": "Butuan City",
+                            "text": "CCTV, Mobile, Laptop/Desktop Repair, Network Technician,Photo/Video Editing",
+                            "list": [],
+                            "tags": ["CCTV", "Mobile", "Laptop","Desktop", "Network","Adobe Premiere", "Adobe Photoshop","Microsoft Office","Linux","MacOS"]
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "images/pictures/timeline-place-sapphire-studio.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2016, "month": 11},
+                    "dateEnd": {"year": 2017, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{Dish}} Washer",
+                            "province": "Agusan del Norte",
+                            "country": "Philippines",
+                            "institution": "Butuan City",
+                            "text": "Washed dishes @ Sunflower-Bistro & KTV Bar.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/timeline-place-sapphire-studio.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2017, "month": 4},
+                    "dateEnd": {"year": 2018, "month": 8},
+                    "locales": {
+                        "en": {
+                            "title": "{{Distributor}} Uniliver Inc.",
+                            "province": "Agusan del Norte",
+                            "country": "Philippines",
+                            "institution": "Butuan City",
+                            "text": "Distributor @ Uniliver Inc.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/timeline-place-sapphire-studio.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "dateStart": {"year": 2016, "month": 11},
+                    "dateEnd": {"year": 2017, "month": 4},
+                    "locales": {
+                        "en": {
+                            "title": "{{Waiter}}",
+                            "province": "Agusan del Norte",
+                            "country": "Philippines",
+                            "institution": "Butuan City",
+                            "text": "Waiter @ Mr.Shrimp & Crabs.",
+                            "list": [],
+                            "tags": []
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-computer",
+                    "faIconColors": { "bg": "#111", "fill": "#EEE" },
+                    "dateStart": { "year": 2022, "month": 5 },
+                    "dateEnd": { "now": true },
+                    "locales": {
+                        "en": {
+                            "title": "{{Computer Technician}} @ Microtrade GCM Corporation Butuan",
+                            "province": "Agusan del Norte",
+                            "country": "Philippines",
+                            "institution": "Butuan City",
+                            "text": "Providing technical support and maintenance for computer systems",
+                            "list": [
+                                "Diagnosing and repairing hardware and software issues",
+                                "Installing and configuring operating systems and software",
+                                "Performing routine system maintenance and updates",
+                                "Assisting users with technical problems and training",
+                                "Setting up and managing local networks and peripherals"
+                            ],
+                            "tags": ["Hardware", "Software", "Troubleshooting", "Network Setup", "Technical Support", "CCTV", "Mobile", "Microsoft Office","BIOS","Windows","Linux","MacOS"]
+                        }
+                    }
+                },                
+                
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-shrimp",
+                    "faIconColors": {"bg": "#111", "fill": "#EEE"},
+                    "dateStart": {"year": 2025, "month": 6},
+                    "dateEnd": {"now": true},
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Engineer",
+                            "province": "Agusan del Norte",
+                            "country": "Philippines",
+                            "institution": "Butuan City",
+                            "text": "{{Developing Inventory Management System}}",
+                            "list": [
+                                "Role based access control",
+                                "Dynamic to work both mobile and laptop/desktop",
+                                "Developing a FastAPI powered RESTful API",
+                                "Optimizing database performance with PostgreSQL",
+                                "Building services with Shadcn UI, Tailwind CSS, FastAPI, and PostgresSQL"
+                            ],
+                            "tags": ["React", "NodeJS","JavaScript","TypeScript", "FastAPI", "PostgresSQL", "Tailwind CSS", "Shadcn UI"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

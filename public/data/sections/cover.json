@@ -1,0 +1,255 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Welcome!",
+                "title_short_nav": "About me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Jonas Dave Sumbeling!}}"
+            } 
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "microtradetechdave@gmail.com",
+                    "link": {"href": "mailto:microtradetechdave@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 2,
+                    "label": "@Dave",
+                    "link": {"href": "https://github.com/studyante1996", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a {{Computer Technician}} with extensive experience in Computer systems, CCTV installation and maintenance, Software troubleshooting, and Mobile device support. Over the years, I’ve built a reputation for delivering reliable, efficient, and practical technical solutions across various environments.</p> <p>Whether it’s setting up and securing surveillance systems, repairing and optimizing computer hardware, resolving software issues, or configuring mobile devices, I bring a hands-on, detail-oriented approach to every task.</p> <p>With a strong commitment to quality and client satisfaction, I’m ready to support your technical needs with professionalism and expertise.</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleTestimonials",
+            "locales": {
+                "en": {"title": "Client {{testimonials}}"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Anita Bath",
+                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-female-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "CEO at [[SalesForce]]",
+                            "text": "Working with Dave was a game-changer. His ability to troubleshoot and solve complex technical problems—whether in CCTV, mobile devices, or software—made a noticeable impact on our productivity and peace of mind."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "label": "Lou Natic",
+                    "link": {"href": "https://github.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Lead Developer at [[GitHub]]",
+                            "text": "Dave brought a level of technical expertise that truly elevated our team. His knowledge across computer systems, CCTV, software, and mobile support helped us streamline operations and resolve issues faster than ever before."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "label": "Paige Turner",
+                    "link": {"href": "", "tooltipString": ""},
+                    "img": "images/pictures/testimonial-person-female-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Managing Director at [[Dingga]]",
+                            "text": "Dave’s support was consistently reliable and effective. He handled everything from computer diagnostics to CCTV setups with professionalism and care. We always knew we were in good hands."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "’s technical skills are matched only by his dedication and attention to detail. Whether it was a critical system issue or a day-to-day technical need, he delivered with efficiency and confidence."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Having Dave on board meant fewer technical disruptions and smoother day-to-day operations. His experience in both hardware and software made him our go-to for just about everything tech-related."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "label": "Chris P. Bacon",
+                    "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
+                    "img": "images/pictures/testimonial-person-male-2.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Creative Director at [[Dribbble]]",
+                            "text": "Dave’s deep understanding of computers, CCTV systems, and mobile tech was instrumental to our success. He approaches every task with a solutions-first mindset and delivers results that last."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-laptop",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Laptop/Desktop}} Repair",
+                            "text": "Fixing and maintaining my laptop."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-mobile-screen-button",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Mobile {{Repair}}",
+                            "text": "Fixing and Repairing Mobile Devices."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-camera",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{CCTV}} Maintenance",
+                            "text": "Fixing and maintaining CCTV Systems."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-network-wired",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Network}} Maintenance",
+                            "text": "Studying Network Maintenance."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Coding}}",
+                            "text": "Studying Frontend/Backend Development."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-edit",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Editing}}",
+                            "text": "Editing Photos/Videos."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
