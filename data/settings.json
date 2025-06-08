@@ -1,7 +1,7 @@
 {
     "developerSettings": {
-        "debugMode": true,
-        "fakeEmailRequests": true,
+        "debugMode": false,
+        "fakeEmailRequests": false,
         "stayOnThePreloaderScreen": false,
         "version": "2.0.0"
     },
