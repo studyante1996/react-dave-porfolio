@@ -14,10 +14,9 @@
             "localized_name_stylized": " [[Dave]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
-                "Computer Technician",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "Freelancer",
+                "Full Stack Developer",
+                "Computer Technician"
             ]
         }
     }
