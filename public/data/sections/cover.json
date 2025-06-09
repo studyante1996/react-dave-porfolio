@@ -74,7 +74,7 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Anita Bath",
+                    "label": "John Alcantara",
                     "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
                     "img": "images/pictures/testimonial-person-female-1.png",
                     "faIcon": "",
@@ -88,7 +88,7 @@
                 },
                 {
                     "id": 2,
-                    "label": "Lou Natic",
+                    "label": "Kevin Galvez",
                     "link": {"href": "https://github.com", "tooltipString": "open_website"},
                     "img": "images/pictures/testimonial-person-male-1.png",
                     "faIcon": "",
@@ -102,7 +102,7 @@
                 },
                 {
                     "id": 3,
-                    "label": "Paige Turner",
+                    "label": "Van Utlang",
                     "link": {"href": "", "tooltipString": ""},
                     "img": "images/pictures/testimonial-person-female-2.png",
                     "faIcon": "",
@@ -116,7 +116,7 @@
                 },
                 {
                     "id": 4,
-                    "label": "Chris P. Bacon",
+                    "label": "Lynette P. Tecson",
                     "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
                     "img": "images/pictures/testimonial-person-male-2.png",
                     "faIcon": "",
@@ -144,7 +144,7 @@
                 },
                 {
                     "id": 6,
-                    "label": "Chris P. Bacon",
+                    "label": "Alfredo P. Pineda",
                     "link": {"href": "https://dribbble.com", "tooltipString": "open_website"},
                     "img": "images/pictures/testimonial-person-male-2.png",
                     "faIcon": "",
